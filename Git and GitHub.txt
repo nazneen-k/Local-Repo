@@ -1,0 +1,85 @@
+Git
+
+- Version Control System is a tool that helps you track changes in code.
+- Git is a Version Control System.
+- It is Popular.
+- It is free and Open Source
+- It is fast and Scalabe
+- Git is a tool, can be considered as a software that runs on our System.
+
+Helps to: Maintain History, Team Collaboration.
+
+------------------------------------------------------
+
+Setting up Git:
+
+* Visual Studio Code
+* Windows(Git Bash)
+
+After installing, to check use the command
+> git --version
+It displays the Git Version which is installed.
+
+-----------------------------------------------------
+
+Configurating Git:
+
+> git config --global user.name "My Name"
+> git config --global user.email "someone@email.com"
+> git config --list
+
+-----------------------------------------------------
+
+Git Basic Commands:
+
+**CLONE COMMAND**
+----------------
+
+* Clone: Cloning a repository on our local machine
+> git clone <--link-->
+- There are two machines, 1) Remote 2) Local
+1) Remote: Refers to Github.
+2) Local: Refers to our Laptop/ System.
+
+* Cloning is done mostly to get the complete project from github to our local system
+
+* Inorder to view hidden files in the project, use the command:
+> ls -a
+
+
+**STATUS COMMAND**
+-------------------
+
+* Status: Used to get the status of our project.
+> git status
+
+* There are 4 mainly displayed status:
+  - untracked:
+    new files that git doesn't yet track.
+  - modified:
+    changed
+  - staged:
+    file is ready to be committed.
+  - unmodified:
+    unchanged
+
+**ADD COMMAND***
+---------------------
+
+* add : adds new or changed files in your working directory to the git staging area
+  > git add <-- file name -->
+
+
+**COMMIT COMMAND**
+---------------------
+
+* commit : it is the record of change
+  > git commit -m "some message"
+
+
+
+
+
+Github
+
+- Website that allows developers to store and manage their code using Git.
